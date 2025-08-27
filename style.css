@@ -1,0 +1,6 @@
+/* clash of royale font  */
+@font-face {
+  font-family: 'SupercellMagic';
+  src: url('Font/supercell-magic.ttf') format('truetype');
+  /* font-family: 'SupercellMagic', sans-serif; */
+}
