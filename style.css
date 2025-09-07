@@ -1,6 +1,68 @@
-/* clash of royale font  */
+/* ------------clash of royale font ------------ */
 @font-face {
   font-family: 'SupercellMagic';
   src: url('Font/supercell-magic.ttf') format('truetype');
   /* font-family: 'SupercellMagic', sans-serif; */
+}
+
+/* -----------------start---------- */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #111;
+}
+header {
+  overflow: hidden;
+}
+
+
+.bg {
+  position: relative;
+  height: 100vh;
+  background: url('images/bgImage.jpg') no-repeat center center fixed;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end; 
+  padding: 0 2rem 0.1rem 2rem;
+  box-sizing: border-box;
+}
+
+.floating-logo {
+  position: absolute;
+  top: 1%; 
+  left: 50%;
+  transform: translateX(-50%);
+  height: 60vh; 
+  z-index: 10; 
+  pointer-events: none;
+}
+
+
+.logo-container {
+  text-align: center;
+}
+.center-logo {
+  height: 20vh;
+  object-fit: contain;
+}
+
+
+.sideImageRow {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 2rem;
+  position: relative;
+  z-index: 1; 
+}
+
+.king {
+  height: 80vh;
+  object-fit: contain;
 }
